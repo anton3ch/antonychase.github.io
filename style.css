@@ -1,0 +1,182 @@
+/*the styles for the elements*/
+* {
+  margin:0;
+  padding: 0;
+}
+
+ul {
+  text-decoration: none;
+  list-style:none;
+}
+
+body {
+  width: 900px;
+  margin: auto;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 200%;
+  padding-top: .5em;
+  text-transform: uppercase;
+  color: maroon;
+}
+
+h2{
+  color:maroon;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-size:100%;
+  color:maroon;
+  padding:4.5em 0 .5em;
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+}
+
+a:hover, header #menu a:focus {
+  color:maroon;
+}
+
+p {
+  font-size:85%;
+  padding-bottom: .5em;
+}
+/*the styles for the header*/
+header {
+  position: fixed;
+  display:block;
+  width:900px;
+  background: white;
+  top:0;
+}
+
+header aside {
+  float:left;
+}
+
+header #menu {
+  float:right;
+  clear:right;
+}
+
+header #media {
+  float:right;
+  padding-top:1em;
+}
+
+header #media li{
+  padding-bottom:.25em;
+  font-size: 75%;
+  text-align:right;
+}
+
+header #menu li{
+  padding: 0em 0 0 1.5em;
+  display: inline-block;
+}
+
+/*the styles for the main content*/
+
+main {
+  clear: both;
+}
+
+/*the styles for the bio*/
+#bio {
+  padding-top:150px;
+  width:100%;
+}
+
+#representation {
+  float:left;
+  width:40%;
+}
+
+#middle {
+  float:left;
+  width:20%;
+}
+
+#headshot {
+  padding-bottom:5em;
+  float:right;
+  width:30%;
+}
+/*the styles for the gallery*/
+#photo {
+  border-bottom: 2px solid maroon;
+  border-top: 2px solid maroon;
+  clear:both;
+  width:805px;
+  margin:auto;
+  padding:85px 0 80px;
+  display:block;
+}
+
+#photo-mobile {
+  display:none;
+}
+
+/*the styles for the resume*/
+#resume {
+  padding-top: 85px;
+  clear: both;
+}
+#credits {
+  padding-top:.75em;
+}
+#credits p {
+  text-align:left;
+}
+
+#credits h2 {
+  float:left;
+  clear:both;
+  padding:.5em 0;
+}
+
+#credits ul{
+  float:right;
+  width: 50%;
+  padding:1em 0;
+}
+#credits li {
+  padding-bottom:.75em;
+}
+#header {
+  width:700px;
+  margin:auto;
+}
+#header li {
+  display:inline;
+  text-align: center;
+  padding: 0 2em;
+}
+.red {
+  color:maroon;
+}
+
+/*the styles for the reels*/
+#reels {
+  clear:both;
+  width:100%;
+  height:500px;
+  background:maroon;
+  margin-top: 3em;
+}
+
+/*the styles for the footer*/
+footer {
+  width:100%;
+  clear:both;
+}
+
+footer p{
+  padding: 2em 0;
+  color:maroon;
+}
