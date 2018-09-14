@@ -1,81 +1,82 @@
 /*the styles for the elements*/
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
 ul {
   text-decoration: none;
-  list-style:none;
+  list-style: none;
 }
 
 body {
   width: 900px;
   margin: auto;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 h1 {
   font-size: 200%;
-  padding-top: .5em;
+  padding-top: 0.5em;
   text-transform: uppercase;
   color: maroon;
 }
 
-h2{
-  color:maroon;
+h2 {
+  color: maroon;
   padding-bottom: 1em;
 }
 
 h3 {
-  font-size:100%;
-  color:maroon;
-  padding:4.5em 0 .5em;
+  font-size: 100%;
+  color: maroon;
+  padding: 4.5em 0 0.5em;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
   color: inherit;
 }
 
-a:hover, header #menu a:focus {
-  color:maroon;
+a:hover,
+header #menu a:focus {
+  color: maroon;
 }
 
 p {
-  font-size:85%;
-  padding-bottom: .5em;
+  font-size: 85%;
+  padding-bottom: 0.5em;
 }
 /*the styles for the header*/
 header {
   position: fixed;
-  display:block;
-  width:900px;
+  display: block;
+  width: 900px;
   background: white;
-  top:0;
+  top: 0;
 }
 
 header aside {
-  float:left;
+  float: left;
 }
 
 header #menu {
-  float:right;
-  clear:right;
+  float: right;
+  clear: right;
 }
 
 header #media {
-  float:right;
-  padding-top:1em;
+  float: right;
+  padding-top: 1em;
 }
 
-header #media li{
-  padding-bottom:.25em;
+header #media li {
+  padding-bottom: 0.25em;
   font-size: 75%;
-  text-align:right;
+  text-align: right;
 }
 
-header #menu li{
+header #menu li {
   padding: 0em 0 0 1.5em;
   display: inline-block;
 }
@@ -88,38 +89,37 @@ main {
 
 /*the styles for the bio*/
 #bio {
-  padding-top:150px;
-  width:100%;
+  padding-top: 150px;
+  width: 100%;
 }
 
 #representation {
-  float:left;
-  width:40%;
+  float: left;
+  width: 40%;
 }
 
 #middle {
-  float:left;
-  width:20%;
+  float: left;
+  width: 20%;
 }
 
 #headshot {
-  padding-bottom:5em;
-  float:right;
-  width:30%;
+  padding-bottom: 5em;
+  float: right;
+  width: 30%;
 }
 /*the styles for the gallery*/
 #photo {
   border-bottom: 2px solid maroon;
   border-top: 2px solid maroon;
-  clear:both;
-  width:805px;
-  margin:auto;
-  padding:85px 0 80px;
-  display:block;
+  clear: both;
+  width: 805px;
+  margin: auto;
+  padding: 85px 0 80px;
 }
 
-#photo-mobile {
-  display:none;
+#mobile-photo {
+  display: none;
 }
 
 /*the styles for the resume*/
@@ -128,55 +128,56 @@ main {
   clear: both;
 }
 #credits {
-  padding-top:.75em;
+  padding-top: 1.5em;
 }
 #credits p {
-  text-align:left;
+  text-align: left;
 }
 
 #credits h2 {
-  float:left;
-  clear:both;
-  padding:.5em 0;
+  float: left;
+  clear: both;
+  padding: 0.5em 0;
 }
 
-#credits ul{
-  float:right;
+#credits ul {
+  float: right;
   width: 50%;
-  padding:1em 0;
+  padding: 1em 0;
 }
 #credits li {
-  padding-bottom:.75em;
+  padding-bottom: 0.75em;
 }
 #header {
-  width:700px;
-  margin:auto;
+  width: 700px;
+  margin: auto;
 }
 #header li {
-  display:inline;
+  display: inline;
   text-align: center;
   padding: 0 2em;
 }
 .red {
-  color:maroon;
+  color: maroon;
 }
 
 /*the styles for the reels*/
 #reels {
-  clear:both;
-  width:100%;
-  height:500px;
-  background:maroon;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  background: maroon;
   margin-top: 3em;
 }
 
 /*the styles for the footer*/
 footer {
-  width:100%;
-  clear:both;
+  width: 100%;
+  clear: both;
 }
 
-footer p{
+footer p {
   padding: 2em 0;
-  color:maroon;
+  color: maroon;
 }
+
