@@ -1,198 +1,173 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1561.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+  <meta charset="UTF-8" />
+  <title>Antony Chase</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-<p class="p1">/*the styles for the elements*/</p>
-<p class="p1">* {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin:0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">ul {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>list-style:none;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">body {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 900px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: auto;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Montserrat';</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h1 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 200%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-top: .5em;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-transform: uppercase;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: maroon;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h2{</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color:maroon;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-bottom: 1em;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h3 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size:100%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color:maroon;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding:4.5em 0 .5em;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">a {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-decoration:none;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: inherit;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">a:hover, header #menu a:focus {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color:maroon;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">p {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size:85%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-bottom: .5em;</p>
-<p class="p1">}</p>
-<p class="p1">/*the styles for the header*/</p>
-<p class="p1">header {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>position: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>display:block;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:900px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background: white;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>top:0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header aside {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:left;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header #menu {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:right;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear:right;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header #media {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:right;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-top:1em;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header #media li{</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-bottom:.25em;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 75%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align:right;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header #menu li{</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 0em 0 0 1.5em;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>display: inline-block;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/*the styles for the main content*/</p>
-<p class="p2"><br></p>
-<p class="p1">main {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear: both;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/*the styles for the bio*/</p>
-<p class="p1">#bio {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-top:150px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:100%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#representation {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:left;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:40%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#middle {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:left;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:20%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#headshot {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-bottom:5em;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:right;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:30%;</p>
-<p class="p1">}</p>
-<p class="p1">/*the styles for the gallery*/</p>
-<p class="p1">#photo {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>border-bottom: 2px solid maroon;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>border-top: 2px solid maroon;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear:both;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:805px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin:auto;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding:85px 0 80px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>display:block;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#photo-mobile {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>display:none;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/*the styles for the resume*/</p>
-<p class="p1">#resume {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-top: 85px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear: both;</p>
-<p class="p1">}</p>
-<p class="p1">#credits {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-top:.75em;</p>
-<p class="p1">}</p>
-<p class="p1">#credits p {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align:left;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#credits h2 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:left;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear:both;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding:.5em 0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#credits ul{</p>
-<p class="p1"><span class="Apple-converted-space">  </span>float:right;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 50%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding:1em 0;</p>
-<p class="p1">}</p>
-<p class="p1">#credits li {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-bottom:.75em;</p>
-<p class="p1">}</p>
-<p class="p1">#header {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:700px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin:auto;</p>
-<p class="p1">}</p>
-<p class="p1">#header li {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>display:inline;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 0 2em;</p>
-<p class="p1">}</p>
-<p class="p1">.red {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color:maroon;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/*the styles for the reels*/</p>
-<p class="p1">#reels {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear:both;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:100%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>height:500px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background:maroon;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 3em;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/*the styles for the footer*/</p>
-<p class="p1">footer {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width:100%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>clear:both;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">footer p{</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 2em 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color:maroon;</p>
-<p class="p1">}</p>
+  <header>
+    <aside>
+      <h1>Antony Chase</h1>
+      <p>Actor | Los Angeles, CA</p>
+    </aside>
+    <section id="media">
+      <ul>
+        <li>+1 (213) 269-9333‬</li>
+        <li><a href="mailto:anton3ch@icloud.com">anton3ch@icloud.com</a></li>
+      </ul>
+    </section>
+    <ul id="menu">
+      <li><a href="#bio">Home</a></li>
+      <li><a href="#photo">Gallery</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#reels">Reels</a></li>
+    </ul>
+  </header>
+  <main>
+    <section id="bio">
+      <aside id="representation">
+        <h2>Representaion</h2>
+        <p>Pierre Patrick | Jerry Pace Agency<br>+1 (818) 501-8919<br><a href="mailto:info@jerrypaceagency.com">info@jerrypaceagency.com</aЮ</p>
+      </aside>
+      <aside id="middle">
+        <h2>Antony Chase</h2>
+        <p>‭+1 (213) 269-9333‬<br><a href="mailto:anton3ch@icloud.com">anton3ch@icloud.com</a><br><br><br><a href="https://lacasting.com/antonychase">LA Casting</a><br><a href="https://resumes.actorsaccess.com/antonychase">Actor's Access</a></p>
+      </aside>
+      <img id="headshot" src="headshot.jpg"
+        style="width:200px; height:auto;">
+      </img>
+    </section>
+    <section id="photo">
+      <a data-fancybox="gallery" href="1.jpg"><img src="1.jpg" width="400" height="400" style="object-fit:cover;" ></a>
+<a data-fancybox="gallery" href="2.jpg"><img src="2.jpg" width="400" height="400" style="object-fit:cover;"></a><br>
+     <div id="photo-landscape"> <a data-fancybox="gallery" href="3.jpg"><img src="3.jpg" width="400" height="400" style="object-fit:cover;"></a>
+      <a data-fancybox="gallery" href="4.jpg"><img src="4.jpg" width="400" height="400" style="object-fit:cover;"></a>
+      <div id="photo-mobile"><a data-fancybox="gallery" href="5.jpg"><img src="5.jpg" width="300" height="300" style="object-fit:cover;"></a>
+       <a data-fancybox="gallery" href="6.jpg"><img src="6.jpg" width="300" height="300" style="object-fit:cover;"></a></div>
+    </div>
+    </section>
+  <section id="resume">
+      <section id="header"><ul><li>Height: 6"</li><li>Weight: 155 lbs</li><li>Eye Color: Blue</li><li>Hair Color: Brown</li></ul></section>
+      <section id="credits">
+      <h2>Film</h2>
+      <ul>
+        <li>
+          <p>Family Problems | 1plus1 prod.</p>
+          <p class="red">Supporting | Maksim Nikituk</p>
+        </li>
+        <li>
+          <p>Igor Godetsky the Judge | Inter prod.</p>
+          <p class="red">Supporting Lead | Andrei Vetrov</p>
+        </li>
+        <li>
+          <p>Schedule of Miracles | 1plus1 prod.</p>
+          <p class="red">
+            Lead | Oleg Mihalkov</p>
+        </li>
+        <li>
+          <p>Forbidden Love | Inter prod.</p>
+          <p class="red">Lead | Ruslan Kotov</p>
+        </li>
+      </ul>
+      <h2>Television</h2>
+      <ul>
+        <li>
+          <p>Keys | Jonah Feingold <a href="keys.mov" target="_blank"><img src="https://www.shareicon.net/data/2016/11/14/851972_play_512x512.png" style="width:1em;padding-left:.5em;"></a></p>
+          <p class="red">Guest Star</p>
+        </li>
+        <li>
+          <p>Unusual Suspects | Doug Elford-Argent <a href="https://www.dropbox.com/v/s/playlist/AguaQ4FFUQyTGDX-AMCyzeKVeAiKtbiGI_jOU22fOJArMpZDt0xofCGnH0cU2MpdftxWlLr8bZ2a-h7wQZlIlSjlFNznsz44PdUFtuLXmoopQlMTKA5Gvd_HknK807C26RJ8Pv__-l27UdtBChtMSXSOFxV7pOvTGfe2duE5YfgAWVBwrFp7zdTaoP6gl1m7tdt5EXYdwcC-D3ZZ2dtgwVhF3Pe7rkvAdYCIVZomUkVkS756-smnpBcgc3IdftbbO-l8Kfc2kgb9Gl0fUtegukMMaO_IAJBXdzqcNFYjSC5lQgle79ohaPwjwUAtYewN8bgV1amsVx3zvlvwoSk5ZZTz" target="_blank"><img src="https://www.shareicon.net/data/2016/11/14/851972_play_512x512.png" style="width:1em;padding-left:.5em;"></a></p>
+          <p class="red">Co-Star | Gunner</p>
+        </li>
+        <li>
+          <p>The Interns | NTV-kino</p>
+          <p class="red">
+            Guest Star | Artur Himin</p>
+        </li>
+      </ul>
+      <h2>Theater</h2>
+      <ul>
+        <li>
+          <p>Metro Mad | Chris Berube</p>
+          <p class="red">Lead</p>
+        </li>
+        <li>
+          <p>Beauty and the Beast | Svetlana Fridrihovna</p>
+          <p class="red">Lead</p>
+        </li>
+      </ul>
+      <h2>Commercial</h2>
+      <ul>
+        <li>
+          <p>Uber “Friendsgiving” | Ross Harris <a href="https://www.dropbox.com/v/s/playlist/AgucBu-W42ZIwpdfXTZt4z_M4nNt1EsRASLcIFq697_Xo8NILFM0Z_afDBsZFE9u1WU1SQIwDFFoCOzmPQJ3-63zY98ztSUOKQ5CLrincbl89m8xiesQqiJlLt-7-f8w3pqa8h7x11Q9rV0x_CaMk8hJqIP9U0TTX7gCV1OskuxpcP79BDiHPDNbl2l7VQugkvZL1NbHa4meGL_iWN_iQI_WZkufjDwMYh8gChFVcPM-Udiv7V-zz7XPpZs5Tr9R6iJPlSLIK5INxwQIsr4hAFFw1oxWudALyALJPH1b7BcJ1LGIhFYlxyA8WTtptr1sC-oUViZNoZoco04NUxQUfsX-oDh7R9fqHAB-N2tWvZ64m8-SZVc_A2vOJbCIJ0CSrj8" target="_blank"><img src="https://www.shareicon.net/data/2016/11/14/851972_play_512x512.png" style="width:1em;padding-left:.5em;"></a></p>
+          <p class="red">Principal</p>
+        </li>
+        <li>
+          <p>Corsair: Unplug & Play | George Neinhuis <a href="https://www.dropbox.com/v/s/playlist/AguzZOW03TPrP9lAK9XSgOtclWQp6L9GhKKaV8ElF3WkOarpIVemOlIKD8i0n9sXFjUHjDKT91oL-vGAywDlTdAiEtEBbRyXHjbCcWiUZ7Q05v0tweyh5MIl2iBPrK-ktQqUrjqKnR5MmKwIrLl2e3lT5qS6pWWgrh9T6-OozZfanOEuRTzZHAalEmx3yocLWF9351AtG_Pm_aEInPk__HsB33QIYR--5GrpC7_1avr9o-rGfaiXimWpRa_7z9DIeb1oS5nZMKYFE9J4jVQJ7SVajtIpmVD-9zb7S4pN9HUrd6fwlZfXaBN_OZ3DfJVnaky9SmPbYnnhmrcWxKt56UTQ" target="_blank"><img src="https://www.shareicon.net/data/2016/11/14/851972_play_512x512.png" style="width:1em;padding-left:.5em;"></a></p>
+          <p class="red">Principal</p>
+        </li>
+        <li>
+          <p>Uber “Arriving Now” | Ross Harris <a href="https://www.dropbox.com/v/s/playlist/AgubCrcglsWopUMOxOjaqO6Aa5pwMw0OS8PQ61yjj-Qxdu3s-56fmarX_FvRITF7cEZ9uA0a3sDbKMfgcbmW0Aephvd5f_0j3W4IoZf96yRJtFgREMLcVzkc8Bhst7PsaBytu1lnK3nCNm_u5NKjpmGtXIlkoezbHTOeLfUkpObdDeJuAT2HqE7RtLTwmLHtRLt5qB73RzjAhqB0hVTXY5pXZ5_R5GwfixBWppOZagd-CneREj7IrPqejsIBzcHnA1AJ6KFgXp-gd9krnzhcfICqOPaYyyIt4mWu-k2igOXmX9nh1Tz0FjIvv6vk-Z4RLZOHrAFGqKm3LXFTF0-JEbX2Orx1zuePQj0L9VeE9XLXpUjfeJEkuwUkPMB3SOP415w" target="_blank"><img src="https://www.shareicon.net/data/2016/11/14/851972_play_512x512.png" style="width:1em;padding-left:.5em;"></a></p>
+          <p class="red">Principal</p>
+        </li>
+        <li>
+          <p>Vivo | Derek Song / Angie Su</p>
+          <p class="red">Featured</p>
+        </li>
+        <li>
+          <p>DJI global | Ryo Rex <a href="https://www.dropbox.com/v/s/playlist/AgtGx-NU-Y3dDQXyztf_PtEcyN2HzxyBCy_ZADVg7wUdgdB1c_vDGC9TQFn56jtEN3ADhkEFT6A6SATP6crFmG6CD6B5R6rO6T0DIE9cou5lKwlqNNayvqvkHah-heuvWxA7BsiUqhWTSBEK6kLM8WPKDKNeV_esdr512NTfhBoEEmqE39Iya4_ukVVg9lQOo-S-SNudZxLs7VF36kJaWvVZJblsQrltscGtwAMjRloRTNWxMoN5OkJkShhosbXTGDXRikPaKwvf04BdeOIHQKqiNnH4ysoMwwCu4vEoQgCkcZ6gCkbSFUr_wWPGr55iX6YusdQI2-F13uzUOzS-nNj-" target="_blank"><img src="https://www.shareicon.net/data/2016/11/14/851972_play_512x512.png" style="width:1em;padding-left:.5em;"></a></p>
+          <p class="red">Principal</p>
+        </li>
+      </ul>
+      <h2>Music video</h2>
+      <ul>
+        <li>
+          <p>Alena Sviridova “Hurt” | Alan Badoev</p>
+          <p class="red">Featured</p>
+        </li>
+        <li>
+          <p>Naïka Oko "Black and Blue" | Naïka Oko</p>
+          <p class="red">Lead</p>
+        </li>
+        <li>
+          <p>Sol Flare "Easy line" | Jesse Dvorak</p>
+          <p class="red">Lead</p>
+        </li>
+      </ul>
+      <h2>Training</h2>
+      <ul>
+        <li>
+          <p>Lesly Kahn &amp; Co | Lesly Kahn</p>
+        </li>
+        <li>
+          <p>Ivana Chubbuck studio | Ivana Chubbuck</p>
+        </li>
+        <li>
+          <p>Stanislavskii technique institute | Oleg Tabakov</p>
+        </li>
+      </ul>
+      <h2>Special Skills</h2>
+      <p style="float:right;width:50%;">Aerobics | Badminton | Baseball | Basketball | Bowling | Cycling | Cycling - Mountain Biking | Diving | Fishing | Football | Ice Skating | Jump Rope | Lifeguard | Mountain Climbing | Parkour | Roller Skating | Rollerblading | Running - General |
+        Segway | Sky Diving | Swimming - ability - general | Swimming - backstroke | Swimming - breast stroke | Swimming - butterfly | Swimming - diving | Swimming - freestyle | Volleyball | Water Skiing | Yoga | Improvisation | Licensed Driver | Modeling
+        | Voiceover | Russian Accent | Fluent Russian</p>
+    </section>
+  </section>
+    <section id="reels">
+      <h1>REELS</h1>
+      <video width="600px" height="auto" autoplay><source src="https://www.dropbox.com/v/s/playlist/AgucBu-W42ZIwpdfXTZt4z_M4nNt1EsRASLcIFq697_Xo8NILFM0Z_afDBsZFE9u1WU1SQIwDFFoCOzmPQJ3-63zY98ztSUOKQ5CLrincbl89m8xiesQqiJlLt-7-f8w3pqa8h7x11Q9rV0x_CaMk8hJqIP9U0TTX7gCV1OskuxpcP79BDiHPDNbl2l7VQugkvZL1NbHa4meGL_iWN_iQI_WZkufjDwMYh8gChFVcPM-Udiv7V-zz7XPpZs5Tr9R6iJPlSLIK5INxwQIsr4hAFFw1oxWudALyALJPH1b7BcJ1LGIhFYlxyA8WTtptr1sC-oUViZNoZoco04NUxQUfsX-oDh7R9fqHAB-N2tWvZ64m8-SZVc_A2vOJbCIJ0CSrj8" type="video/mov"><video>
+    </section>
+  </main>
+  <footer>
+    <p>&copy 2018 by Antony Chase</p>
+  </footer><script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 </body>
+
 </html>
