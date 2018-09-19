@@ -202,12 +202,8 @@
   
 <script src="https://anton3ch.github.io/antonychase.github.io/jquery.js"></script>
 <script src="https://anton3ch.github.io/antonychase.github.io/lity.js"></script>
-<script>
-  $(document).on('click', '[data-lightbox]', lity);
-</script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 <script type="text/javascript" src="https://anton3ch.github.io/antonychase.github.io/simple-lightbox.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   $(function() {
     var $gallery = $('.gallery a').simpleLightbox();
@@ -253,8 +249,9 @@
       });
   });
 </script>
- 
-
+<script>
+  $(document).on('click', '[data-lightbox]', lity);
+</script>
 </body>
 
 </html>
