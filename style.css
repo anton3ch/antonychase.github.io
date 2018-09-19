@@ -93,6 +93,9 @@ main {
   width: 100%;
 }
 
+#none {
+  display:none;
+}
 #representation {
   float: left;
   width: 40%;
@@ -161,6 +164,12 @@ main {
   color: maroon;
 }
 
+#p{
+  float:right;
+  width:50%;
+  line-height:1.75em;
+}
+
 /*the styles for the reels*/
 #reels {
   clear: both;
@@ -180,4 +189,72 @@ footer p {
   padding: 2em 0;
   color: maroon;
 }
+@media (max-width:700px) {
+  body{
+    width:97%;
+    font-size:80%;
+  }
+  header {
+    width:97%;
+  }
+  
+  #bio {
+  padding-top: 100px;
+  width: 95%;
+    margin:auto;
+}
 
+#representation {
+  float: left;
+  width: 50%;
+}
+
+#middle {
+  float: right;
+  width: 42%;
+}
+
+#headshot {
+  clear:both;
+  padding:1em 0 5em;
+  float:none;
+  width: 100%;
+  margin: auto;
+}
+  
+  #photo {
+    width:315px;
+  }
+  
+  #photo img {
+    width:150px;
+    height:150px;
+  }
+  
+  #resume {
+    width:90%;
+    margin:auto;
+  }
+  
+  #header {
+    width:90%;
+  }
+  #header li{
+    padding:0 .25em;
+    font-size:70%;
+  }
+  
+  #credits h2 {
+    font-size:80%;
+  }
+  
+  #credits ul {
+    width:70%;
+    padding:.25em 0;
+  }
+  
+  #p {
+    width:70%;
+    font-size:70%;
+  }
+}
